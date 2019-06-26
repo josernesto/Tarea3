@@ -8,13 +8,16 @@ namespace Tarea3
 {
     public partial class App : Application
     {
+        #region Constructor
         public App()
         {
             InitializeComponent();
 
             MainPage = new LoginPage();
         }
+        #endregion
 
+        #region Methods
         protected override void OnStart()
         {
             // Handle when your app starts
@@ -29,5 +32,6 @@ namespace Tarea3
         {
             // Handle when your app resumes
         }
+        #endregion
     }
 }
