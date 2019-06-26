@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tarea3.ViewModels
 {
-    class Tarea3ViewModel
+    public class Tarea3ViewModel
     {
     }
 }
