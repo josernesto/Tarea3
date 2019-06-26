@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea3.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+            BackgroundColor="White"
+            Padding="10,20,10,5">
+                <Label 
+                
+                FontAttributes="Bold"
+                FontSize="Large"
+                Text="TAREA3"
+                VerticalOptions="CenterAndExpand"
+                TextColor="Black"
+                
+                HorizontalOptions="Center">
+                </Label>
+              
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+
+
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label 
+                
+                
+                FontSize="Medium"
+                Text="E-mail"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                
+                TextColor="Black"
+                BackgroundColor="White"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"
+               >
+                    </Label>
+                    <Entry
+               Placeholder="Enter your email...." 
+                Keyboard="Email"
+                PlaceholderColor="LightBlue"
+                     Grid.Row="3"
+                    Grid.Column="1"
+                >
+
+                    </Entry>
+                    <Label 
+                
+                FontAttributes="Bold"
+                FontSize="Small"
+                Text="Password"
+                 Grid.Row="4"
+                    Grid.Column="0"
+                TextColor="Black"
+                BackgroundColor="White"
+                    VerticalOptions="Center"
+                    
+               >
+                    </Label>
+                    <Entry
+               Placeholder="Enter your password...." 
+                IsPassword="True"
+                PlaceholderColor="LightBlue"
+                     Grid.Row="4"
+                    Grid.Column="1">
+
+                    </Entry>
+                </Grid>
+
+                <Button
+                Text="Login"
+                BorderRadius="2"
+                BackgroundColor="LightSeaGreen"
+                    VerticalOptions="CenterAndExpand">
+
+                </Button>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
